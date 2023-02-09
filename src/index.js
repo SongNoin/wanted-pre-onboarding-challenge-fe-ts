@@ -14,6 +14,6 @@
  * @param {object} newTodo
  * @param {string} newTodo.text - 할 일의 내용
  * @param {string} newTodo.category - 할 일의 카테고리
- * @param {string[]} [newTodo.tag] - 할 일의 태그 배열
+ * @param {string[]} [newTodo.tags] - 할 일의 태그 배열
  */
 function createTodo({ text, category, tags }) {}
