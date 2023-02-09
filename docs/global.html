@@ -281,7 +281,7 @@
 
             
 
-            <td class="description last"><p>할 일의 태그 배열</p></td>
+            <td class="description last"><p>할 일의 tag 배열</p></td>
         </tr>
 
     
@@ -365,7 +365,7 @@
     
 
     
-    <h4 class="name" id="deleteAllTag"><span class="type-signature"></span>deleteAllTag<span class="signature">(todo)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="deleteAllTag"><span class="type-signature"></span>deleteAllTag<span class="signature">(id)</span><span class="type-signature"></span></h4>
     
 
     
@@ -373,7 +373,8 @@
 
 
 <div class="description">
-    <p>특정 할 일의 특정 태그를 삭제할 수 있다.</p>
+    <p>특정 할 일의 모든 tag를 삭제할 수 있다.
+id 기반으로 특정 할 일의 모든 tag 를 삭제한다.</p>
 </div>
 
 
@@ -409,13 +410,13 @@
 
         <tr>
             
-                <td class="name"><code>todo</code></td>
+                <td class="name"><code>id</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type"><a href="global.html#Todo">Todo</a></span>
+<span class="param-type">number</span>
 
 
             
@@ -425,7 +426,7 @@
 
             
 
-            <td class="description last"></td>
+            <td class="description last"><p>특정 할 일의 ID</p></td>
         </tr>
 
     
@@ -466,7 +467,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line73">line 73</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line76">line 76</a>
     </li></ul></dd>
     
 
@@ -554,7 +555,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line60">line 60</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line61">line 61</a>
     </li></ul></dd>
     
 
@@ -590,7 +591,7 @@
     
 
     
-    <h4 class="name" id="deleteTag"><span class="type-signature"></span>deleteTag<span class="signature">(todo, tag)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="deleteTag"><span class="type-signature"></span>deleteTag<span class="signature">(id, tag-)</span><span class="type-signature"></span></h4>
     
 
     
@@ -598,7 +599,8 @@
 
 
 <div class="description">
-    <p>특정 할 일의 특정 태그를 삭제할 수 있다.</p>
+    <p>특정 할 일의 특정 tag를 삭제할 수 있다.
+id 기반으로 특정 할 일의 tag에 해당하는 값을 삭제한다.</p>
 </div>
 
 
@@ -634,13 +636,13 @@
 
         <tr>
             
-                <td class="name"><code>todo</code></td>
+                <td class="name"><code>id</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type"><a href="global.html#Todo">Todo</a></span>
+<span class="param-type">number</span>
 
 
             
@@ -650,14 +652,14 @@
 
             
 
-            <td class="description last"></td>
+            <td class="description last"><p>특정 할 일의 ID</p></td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>tag</code></td>
+                <td class="name"><code>tag-</code></td>
             
 
             <td class="type">
@@ -673,7 +675,7 @@
 
             
 
-            <td class="description last"></td>
+            <td class="description last"><p>삭제할 tag</p></td>
         </tr>
 
     
@@ -714,7 +716,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line67">line 67</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line69">line 69</a>
     </li></ul></dd>
     
 
@@ -800,7 +802,7 @@
             <td class="type">
             
                 
-<span class="param-type">string</span>
+<span class="param-type">number</span>
 
 
             
@@ -851,7 +853,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line55">line 55</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line56">line 56</a>
     </li></ul></dd>
     
 
@@ -1152,7 +1154,7 @@
     
 
     
-    <h4 class="name" id="updateTag"><span class="type-signature"></span>updateTag<span class="signature">(todo, oldTag, newTag)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="updateTag"><span class="type-signature"></span>updateTag<span class="signature">(id, tag, newTag)</span><span class="type-signature"></span></h4>
     
 
     
@@ -1160,7 +1162,8 @@
 
 
 <div class="description">
-    <p>특정 할 일의 특정 태그를 수정할 수 있다.</p>
+    <p>특정 할 일의 특정 tag를 수정할 수 있다.
+id 기반으로 특정 할 일의 tag에 해당하는 값을 newTag로 대체한다.</p>
 </div>
 
 
@@ -1196,13 +1199,13 @@
 
         <tr>
             
-                <td class="name"><code>todo</code></td>
+                <td class="name"><code>id</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type"><a href="global.html#Todo">Todo</a></span>
+<span class="param-type">number</span>
 
 
             
@@ -1212,14 +1215,14 @@
 
             
 
-            <td class="description last"></td>
+            <td class="description last"><p>특정 할 일의 ID</p></td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>oldTag</code></td>
+                <td class="name"><code>tag</code></td>
             
 
             <td class="type">
@@ -1235,7 +1238,7 @@
 
             
 
-            <td class="description last"><p>기존 태그</p></td>
+            <td class="description last"><p>기존 tag</p></td>
         </tr>
 
     
@@ -1258,7 +1261,7 @@
 
             
 
-            <td class="description last"><p>변경할 태그</p></td>
+            <td class="description last"><p>변경할 tag</p></td>
         </tr>
 
     
@@ -1299,7 +1302,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line49">line 49</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line50">line 50</a>
     </li></ul></dd>
     
 
@@ -1409,6 +1412,8 @@
         <th>Type</th>
 
         
+        <th>Attributes</th>
+        
 
         
 
@@ -1434,6 +1439,16 @@
             </td>
 
             
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
 
             
 
@@ -1457,6 +1472,16 @@
             </td>
 
             
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
 
             
 
@@ -1479,6 +1504,16 @@
             
             </td>
 
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
             
 
             
@@ -1608,6 +1643,8 @@
         <th>Type</th>
 
         
+        <th>Attributes</th>
+        
 
         
 
@@ -1633,6 +1670,12 @@
             </td>
 
             
+                <td class="attributes">
+                
+
+                
+                </td>
+            
 
             
 
@@ -1655,6 +1698,12 @@
             
             </td>
 
+            
+                <td class="attributes">
+                
+
+                
+                </td>
             
 
             
@@ -1679,6 +1728,12 @@
             </td>
 
             
+                <td class="attributes">
+                
+
+                
+                </td>
+            
 
             
 
@@ -1701,6 +1756,12 @@
             
             </td>
 
+            
+                <td class="attributes">
+                
+
+                
+                </td>
             
 
             
@@ -1725,10 +1786,18 @@
             </td>
 
             
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+                </td>
+            
 
             
 
-            <td class="description last"><p>적용할 태그 배열</p></td>
+            <td class="description last"><p>적용할 tag 배열</p></td>
         </tr>
 
     
@@ -1803,7 +1872,7 @@
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Thu Feb 09 2023 16:09:02 GMT+0900 (대한민국 표준시)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Thu Feb 09 2023 19:14:23 GMT+0900 (대한민국 표준시)
 </footer>
 
 <script> prettyPrint(); </script>
