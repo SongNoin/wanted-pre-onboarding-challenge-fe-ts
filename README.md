@@ -12,6 +12,9 @@
 ### Day 02
 - 과제 주제 : TypeScript's Interface 로 모델링 하기
 - 과제 요구사항 : https://gist.github.com/pocojang/65f0d47bd34f9ee97ca55d8c7850662f
+### Day 03
+- 과제 주제 : 타 수강생의 타이핑 즉 설계 & 모델링을 실제로 구현
+- 과제 요구사항 : https://gist.github.com/pocojang/e247baddfb4345903751ec592fd836ff
 <br/>
 
 ##  챌린지 목표
