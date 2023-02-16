@@ -1,6 +1,6 @@
 # 원티드 프리온보딩 2월 챌린지 typescript
 ## 과제 배포 링크
-- https://songnoin.github.io/wanted-pre-onboarding-challenge-fe-2
+- https://songnoin.github.io/wanted-pre-onboarding-challenge-fe-2/docs
 <br/>
 
 ## 과제소개
