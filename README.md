@@ -7,14 +7,21 @@
 
 ### Day 01
 - 과제 주제 : Todo 앱을 JSDoc으로 문서화하기
-- 과제 요구사항 : https://gist.github.com/pocojang/3c3d4470a3d2a978b5ebfb3f613e40fa
+- [과제 요구사항](https://gist.github.com/pocojang/3c3d4470a3d2a978b5ebfb3f613e40fa)
 
 ### Day 02
 - 과제 주제 : TypeScript's Interface 로 모델링 하기
-- 과제 요구사항 : https://gist.github.com/pocojang/65f0d47bd34f9ee97ca55d8c7850662f
+- [과제 요구사항](https://gist.github.com/pocojang/65f0d47bd34f9ee97ca55d8c7850662f)
+
 ### Day 03
 - 과제 주제 : 타 수강생의 타이핑 즉 설계 & 모델링을 실제로 구현
-- 과제 요구사항 : https://gist.github.com/pocojang/e247baddfb4345903751ec592fd836ff
+- [과제 요구사항](https://gist.github.com/pocojang/e247baddfb4345903751ec592fd836ff)
+
+### Day 04
+- 과제 주제 : typescript exercise 9번까지 풀기
+- [typescript exercise 사이트](https://typescript-exercises.github.io/)
+- [내 풀이 (블로그)](https://velog.io/@shinpanda/Type-Exercies-%EB%AC%B8%EC%A0%9C-%ED%92%80%EA%B8%B0#typescript-exercies)
+
 <br/>
 
 ##  챌린지 목표
