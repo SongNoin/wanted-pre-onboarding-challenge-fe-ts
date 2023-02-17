@@ -20,7 +20,7 @@
 ### Day 04
 - 과제 주제 : typescript exercise 9번까지 풀기
 - [typescript exercise 사이트](https://typescript-exercises.github.io/)
-- [내 풀이 (블로그)](https://velog.io/@shinpanda/Type-Exercies-%EB%AC%B8%EC%A0%9C-%ED%92%80%EA%B8%B0#typescript-exercies)
+- [내 풀이 (블로그)](https://velog.io/@as5427072/Typescript-Exercise-%ED%92%80%EC%9D%B4)
 
 <br/>
 
